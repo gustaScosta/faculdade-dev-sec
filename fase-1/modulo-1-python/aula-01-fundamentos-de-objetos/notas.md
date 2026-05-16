@@ -6,9 +6,10 @@
 ## Conceitos principais
 
 
-## Vocabulário técnico (inglês)
+## Vocabulario tÃ©cnico (ingles)
+Variable binding = variÃ¡vel nÃ£o armazena valor, ela aponta para um objeto.
 
 
-## Dúvidas e observações
+## Duvidas e observaÃ§Ãµes
 
 
