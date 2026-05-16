@@ -1,0 +1,14 @@
+# Aula 05 Github Actions Intro
+
+## Objetivo da aula
+
+
+## Conceitos principais
+
+
+## Vocabulário técnico (inglês)
+
+
+## Dúvidas e observações
+
+

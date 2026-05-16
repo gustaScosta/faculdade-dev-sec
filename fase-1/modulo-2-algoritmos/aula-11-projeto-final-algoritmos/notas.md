@@ -1,0 +1,14 @@
+# Aula 11 Projeto Final Algoritmos
+
+## Objetivo da aula
+
+
+## Conceitos principais
+
+
+## Vocabulário técnico (inglês)
+
+
+## Dúvidas e observações
+
+

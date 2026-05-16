@@ -1,0 +1,14 @@
+# Aula 07 Rede No Linux
+
+## Objetivo da aula
+
+
+## Conceitos principais
+
+
+## Vocabulário técnico (inglês)
+
+
+## Dúvidas e observações
+
+
