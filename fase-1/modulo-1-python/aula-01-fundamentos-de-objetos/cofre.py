@@ -15,3 +15,33 @@
 # print(x)       # x também é afetado, pois x e y são o mesmo objeto
 # print(z)       # z permanece inalterado, pois é um objeto diferente
 
+# ERRADO — armadilha de mutabilidade
+# def adicionar_item(item, lista=[]):
+#     lista.append(item)
+#     return lista
+
+# print(adicionar_item("a"))  # ['a']
+# print(adicionar_item("b"))  # ['a', 'b'] ← esperava ['b']!
+# print(adicionar_item("c"))  # ['a', 'b', 'c'] ← bug!
+
+# # Por quê? O argumento padrão [] é criado UMA VEZ quando a função é definida.
+# # A mesma lista é reutilizada em cada chamada.
+
+# # CORRETO
+# def adicionar_item(item, lista=None):
+#     if lista is None:
+#         lista = []
+#     lista.append(item)
+#     return lista
+
+# def saudar(nome):
+#     return f"Olá, {nome}!"
+
+# def executar(funcao, valor):
+#     return funcao(valor)  # recebe uma função como argumento
+
+# resultado = executar(saudar, "Engenheiro")
+# print(resultado)  # "Olá, Engenheiro!"
+
+# # Isso é a base dos decorators, callbacks, e muito do que
+# # frameworks web como FastAPI e Flask usam internamente.
